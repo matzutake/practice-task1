@@ -22,12 +22,12 @@
 
 
 ```mermaid
-graph TD;	
+graph LR;	
   untracked -- "git add" --> staged;
   staged    -- "git commit -m 'commit message' "     --> tracked/comitted;
 
-	A --> B;
-	B --> C;
-	C --> D;
-	D --> A;
+  A --> B;
+  B --> C;
+  C --> D;
+  D --> A;
 ```
