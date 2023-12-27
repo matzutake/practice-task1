@@ -26,4 +26,9 @@ graph LR;
   untracked -- "git add" --> staged;
   staged    -- "git commit -m 'commit message' "     --> tracked/comitted;
 
+graph TD;
+	A --> B;
+	B --> C;
+	C --> D;
+	D --> A;
 ```
